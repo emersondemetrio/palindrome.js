@@ -3,7 +3,7 @@
  Installing
 
 - Download nodejs
-- Install backend dependencies:
+- Install back-end dependencies:
 
     ```npm install install```
 
@@ -11,7 +11,7 @@
 
     ```bower install```
 
-Running Application: ```npm init```
+Running Application: ```npm start```
 
 See results using interface:
 
