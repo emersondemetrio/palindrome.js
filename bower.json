@@ -1,0 +1,9 @@
+{
+  "name": "palindrome.js",
+  "description": "palindrome.js",
+  "dependencies": {
+    "get-size": "~1.2.2",
+    "eventEmitter": "~4.2.11",
+    "bootstrap": "^3.3.7"
+  }
+}

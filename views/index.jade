@@ -1,0 +1,51 @@
+extends layout
+
+block content
+    div.header.clearfix
+        nav
+            ul.nav.nav-pills.pull-right
+                li.active
+                    a(href="#") Home
+            h3.text-muted Palindrome.js
+
+    div.jumbotron
+        h3 Palindrome.js - Test if a word is a palindrome.
+            a(href="https://en.wikipedia.org/wiki/Palindrome", target="_blank").pull-right
+                small.glyphicon.glyphicon-link
+
+        em Eg. Arara reversed is Arara, so, "Arara" is a palindrome.
+
+    div.row.marketing
+        div.col-md-12.col-sm-12.col-xs-12
+            label(for="word") TYPE SOMETHING TO CHECK:
+            input(type="text", id="word", placeholder="Type something...").form-control
+
+        div(style="margin-top:10px").col-md-12.col-sm-12.col-xs-12
+            p
+                strong RESULT:
+                span#result
+                    small  You haven't type anything yet...
+            hr
+        div(style="margin-top:10px").col-md-12.col-sm-12.col-xs-12
+            div.jumbotron
+                p
+                    strong EXAMPLE OF INPUTS
+                table.table.table-striped
+                    tr
+                        td
+                            strong INPUT
+                        td
+                            strong RESULT
+                    tr
+                        td ABA
+                        td IS A PALINDROME
+                    tr
+                        td MACACO
+                        td IS NOT A PALINDROME
+                    tr
+                        td A MAN A PLAN A CANAL PANAMA
+                        td IS A PALINDROME
+
+
+    script(type='text/javascript' src='bower_components/jquery/dist/jquery.min.js')
+    script(type='text/javascript' src='javascripts/app.js')
