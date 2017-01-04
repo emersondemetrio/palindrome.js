@@ -11,17 +11,12 @@
 
     ```bower install```
 
-Running Application:
-
-```npm init```
+Running Application: ```npm init```
 
 See results using interface:
 
-Open in your browser
-
-```http://localhost:3000```
+Open in your browser: ```http://localhost:3000```
 
 See Results Using API:
 
-Open in your browser
-```http://localhost:3000/api?word=yourString```
+Open in your browser: ```http://localhost:3000/api?word=yourString```
