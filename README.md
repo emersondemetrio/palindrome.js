@@ -4,16 +4,21 @@
 
 - Download nodejs
 - Install backend dependencies:
+
     ```npm install install```
+
 - Install front-end dependencies:
+
     ```bower install```
 
 Running Application:
-- ```npm init```
+
+```npm init```
 
 See results using interface:
 
 Open in your browser
+
 ```http://localhost:3000```
 
 See Results Using API:
