@@ -2,6 +2,8 @@
 
  Installing
 
+*Lines that starts with $ mean a command to execute in a terminal*
+
 - Download and install nodejs ( https://nodejs.org/en/download )
 - Install bower
 
@@ -23,7 +25,9 @@
 
     ```$ bower install```
 
-Running Application: ```npm start```
+Running Application:
+
+```$ npm start```
 
 See results using interface:
 
