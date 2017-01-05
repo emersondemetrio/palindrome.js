@@ -35,4 +35,4 @@ Open in your browser: ```http://localhost:3000```
 
 See Results Using API:
 
-Open in your browser: ```http://localhost:3000/api?word=yourString```
+Open in your browser: ```http://localhost:3000/api?word=A MAN A PLAN A CANAL PANAMA```
