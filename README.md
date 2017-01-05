@@ -2,7 +2,7 @@
 
  Installing
 
-*Lines that starts with $ mean a command to execute in a terminal*
+*Lines beginning with a $ mean a command to be executed in a terminalLines that starts with $ mean a command to execute in a terminal*
 
 - Download and install nodejs ( https://nodejs.org/en/download )
 - Install bower
