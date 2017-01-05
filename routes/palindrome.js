@@ -16,14 +16,20 @@ var isPalindrome = function( str ){
 };
 
 /**
+ * /
  * get
+ * API Route
  */
-
 router.get('/', function( req, res ){
     var word = req.query.word;
     res.send( isPalindrome( word ) ? 200 : 400 );
 });
 
+/**
+ * /check
+ * post
+ * Interface Route
+ */
 router.post('/check', function( req, res ) {
     var word = req.body.word;
     console.log(word);
