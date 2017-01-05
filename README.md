@@ -1,15 +1,19 @@
 # Palindrome.js
 
  Installing
-- Clone the app:
-
-    ```$ https://github.com/emersondemetrio/palindrome.js.git```
 
 - Download and install nodejs ( https://nodejs.org/en/download )
 - Install bower
 
     ```$ npm install -g bower```
 
+- Clone the app:
+
+    ```$ https://github.com/emersondemetrio/palindrome.js.git```
+
+- Navigate to app foolder
+
+    ```$ cd palindrome.js```
 
 - Install back-end dependencies:
 
