@@ -48,3 +48,8 @@ If you see "OK", it means that your string is a palindrome and if you see "Bad R
 The tests were writen using mocha ( https://mochajs.org/ )
 
 To test the app, follow this steps:
+
+- Install the requirements as if you were running the app ( see above )
+- Run
+```$ npm test```
+- See the results o/
