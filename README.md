@@ -25,7 +25,7 @@
 
     ```$ bower install```
 
-Running Application:
+#Running Application:
 
 ```$ npm start```
 
@@ -42,3 +42,9 @@ Replace "yourString" by the word you want to check. For example:
 ```http://localhost:3000/api?word=A MAN A PLAN A CANAL PANAMA```
 
 If you see "OK", it means that your string is a palindrome and if you see "Bad Request", it means that your string is not a palindrome.
+
+# Testing Application
+
+The tests were writen using mocha ( https://mochajs.org/ )
+
+To test the app, follow this steps:
