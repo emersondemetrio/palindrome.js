@@ -22,7 +22,11 @@ var isPalindrome = function( str ){
  */
 router.get('/', function( req, res ){
     var word = req.query.word;
-    res.send( isPalindrome( word ) ? 200 : 400 );
+    if(word){
+        res.sendStatus( isPalindrome( word ) ? 200 : 400 );
+    } else {
+        res.sendStatus(400);
+    }
 });
 
 /**
@@ -32,8 +36,12 @@ router.get('/', function( req, res ){
  */
 router.post('/check', function( req, res ) {
     var word = req.body.word;
-    console.log(word);
-    res.send( isPalindrome( word ) ? 200 : 400 );
+    if(word){
+        res.sendStatus( isPalindrome( word ) ? 200 : 400 );
+    } else {
+        res.sendStatus(400);
+    }
 });
 
 module.exports = router;
+module.exports.isPalindrome = isPalindrome;
